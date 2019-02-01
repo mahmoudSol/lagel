@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "87665108747",
+    "firebase_url": "https://lagel-4896e.firebaseio.com",
+    "project_id": "lagel-4896e",
+    "storage_bucket": "lagel-4896e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87665108747:android:d755a6667c16f9e6",
+        "android_client_info": {
+          "package_name": "com.lagel.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87665108747-h66dl7cr75h2ttej0u8qqvd7nvpdjbuv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lagel.com",
+            "certificate_hash": "92dfe1802a455de4fb11c0ef97b2c0e02b2086d9"
+          }
+        },
+        {
+          "client_id": "87665108747-cbiu6fnktetq5ehmcsds3ogcqlkov0co.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxwp7BxX7F-MbfcdxhvGoJD9zWjAjR1jQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87665108747-cbiu6fnktetq5ehmcsds3ogcqlkov0co.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

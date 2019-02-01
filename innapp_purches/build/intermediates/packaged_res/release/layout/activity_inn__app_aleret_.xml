@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:id="@+id/background"
+    android:background="@android:color/transparent"
+    tools:context="com.suresh.innapp_purches.Inn_App_aleret_Activity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:minWidth="330dp"
+        android:background="@drawable/back_ground_layout">
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="22sp"
+            android:text="@string/getDatumPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Horizontal view pager for user info -->
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="230dp" />
+
+        <com.suresh.innapp_purches.My_Utility.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:radius="5dp"
+            android:padding="6dip"
+            app:strokeWidth="2dp"
+            app:strokeColor="@android:color/darker_gray"
+            app:pageColor="@color/faderedcolor"
+            app:fillColor="@color/greycolor"/>
+
+        <TextView
+            android:clickable="true"
+            android:id="@+id/twelve_month"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:padding="15dp"
+            android:background="@color/faderedcolor"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/three_Months"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:clickable="true"
+            android:id="@+id/six_month"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:padding="15dp"
+            android:background="@color/faderedcolor"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp"
+            android:text="@string/six_Months"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/three_month"
+            android:clickable="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:padding="15dp"
+            android:background="@color/faderedcolor"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp"
+            android:text="@string/twelve_Months"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/tV_not_now"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="@string/not_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

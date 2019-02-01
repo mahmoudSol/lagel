@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:id="@+id/relativeLayout2">
+    <com.lagel.com.custom_fonts.TextViewRobotoBold
+        android:id="@+id/tab_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buying"
+        android:textColor="@color/tab_unselected_color"
+        android:textSize="@dimen/heading_text_size"
+        />
+
+</RelativeLayout>
+
+    <ImageView
+        android:id="@+id/tab_badge_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/relativeLayout2"
+        android:layout_toEndOf="@+id/relativeLayout2"
+        android:layout_toRightOf="@+id/relativeLayout2"
+        android:src="@drawable/circle_with_red_color_solid_shape"
+        android:visibility="gone" />
+</RelativeLayout>

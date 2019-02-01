@@ -1,0 +1,25 @@
+<resources>
+    <string name="purches_app_name">Innapp_purches</string>
+    <string name="three_Months">GET 12 MONTHS FOR $3.99</string>
+    <string name="six_Months">GET 6 MONTHS FOR $2.99</string>
+    <string name="twelve_Months">GET 3 MONTHS FOR $1.99</string>
+    <string name="getDatumPlus_aleret">Get Datum Plus and unlock</string>
+    <string name="changeYourLocation_aleret">Change Your Location</string>
+    <string name="rewindYourLastSwipe">Rewind Your Last Swipe</string>
+    <string name="sendMoreSuperLikes">Send More Super Likes</string>
+    <string name="viewYourRecentVisitors">View Your Recent Visitors</string>
+    <string name="goBackAndSwipeAgain">Go back and swipe again</string>
+    <string name="letThemKnow">Let them know you are interested</string>
+    <string name="knowWhoViewed">Know who viewed your profile</string>
+    <string name="not_now_aleret">NOT NOW</string>
+    <string name="passport">PASSPORT</string>
+    <string name="rewind">REWIND</string>
+    <string name="superLike">SUPERLIKE</string>
+    <string name="visitors">VISITORS</string>
+    <!--Change Your Location-->
+    <string name="getDatumPlus">Get Datum Plus</string>
+    <string name="changeYourLocation">Change Your Location</string>
+    <string name="Months">12 MONTHS FOR $4.22/mo</string>
+    <string name="matchAroundWorld">Match around the world</string>
+    <string name="not_now">NOT NOW</string>
+</resources>

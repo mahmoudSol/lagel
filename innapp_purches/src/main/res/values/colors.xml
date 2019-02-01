@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_p50">#89000000</color>
+    <color name="light_deep_green">#FF2FC18B</color>
+    <color name="faderedcolor">#B0191E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="greycolor">#ffe5e5e5</color>
+    <color name="docblue">#4399ca</color>
+</resources>

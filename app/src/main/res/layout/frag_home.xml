@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rL_rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbfbfb"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_filter_divider">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rV_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+
+            app:layout_behavior="com.package.name.ScrollAwareFABBehavior" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <!-- Action bar -->
+    <RelativeLayout
+        android:id="@+id/rL_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#F7F6F2">
+
+        <!--<com.lagel.com.custom_fonts.TextViewOrgano
+             android:layout_marginStart="@dimen/ten_dp"
+             android:layout_marginLeft="@dimen/ten_dp"
+             android:gravity="center_vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_centerVertical="true"
+             android:textColor="@color/status_bar_color"
+             android:textSize="@dimen/thirty_one_sp"
+             android:text="@string/app_name"
+            android:textStyle="bold"
+             />-->
+
+        <com.lagel.com.custom_fonts.TextViewRobotoRegular
+            android:id="@+id/tV_invite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="12dp"
+            android:padding="10dp"
+            android:text="@string/invite"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp" />
+        <!-- Notification -->
+        <RelativeLayout
+            android:id="@+id/rL_notification"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/tV_invite">
+
+            <ImageView
+                android:id="@+id/iV_notification_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/simple_image_view"
+                android:src="@drawable/notification_icon" />
+
+            <com.lagel.com.custom_fonts.TextViewRobotoRegular
+                android:id="@+id/tV_notification_count"
+                android:layout_width="@dimen/fifteen_dp"
+                android:layout_height="@dimen/fifteen_dp"
+                android:layout_marginLeft="-15dp"
+                android:layout_marginStart="-15dp"
+                android:layout_marginTop="@dimen/fifteen_dp"
+                android:layout_toEndOf="@+id/iV_notification_icon"
+                android:layout_toRightOf="@+id/iV_notification_icon"
+                android:background="@drawable/circle_with_pink_color_stroke_and_solid_shape"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/eight_sp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:layout_marginStart="@dimen/ten_dp"
+            android:contentDescription="@string/Image"
+
+            android:src="@drawable/navigation_logo"
+            android:textColor="@color/status_bar_color" />
+
+
+        <LinearLayout
+            android:id="@+id/linear_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <!-- Search box -->
+            <RelativeLayout
+                android:id="@+id/rL_search"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/simple_image_view"
+                    android:src="@drawable/search_icon" />
+
+            </RelativeLayout>
+
+
+            <!-- Filter -->
+            <RelativeLayout
+                android:id="@+id/rL_filter"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp">
+
+                <com.lagel.com.custom_fonts.TextViewRobotoRegular
+                    android:id="@+id/tV_filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:text="@string/filter"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rL_no_internet"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/thirty_dp"
+        android:layout_below="@id/rL_action_bar"
+        android:background="@color/error_bg_color">
+
+        <com.lagel.com.custom_fonts.TextViewRobotoMedium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/NoInternetAccess"
+            android:textColor="@color/white"
+            android:textSize="@dimen/subheading_text_size" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rL_no_internet"
+        android:padding="10dp"
+        android:background="#F7F6F2">
+
+        <AutoCompleteTextView
+            android:id="@+id/act_search_posts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tV_browse"
+            android:background="@drawable/rounded_grey_box"
+            android:cursorVisible="true"
+            android:drawableLeft="@drawable/search_icon"
+            android:drawablePadding="10dp"
+            android:hint="@string/search"
+            android:imeOptions="actionSearch"
+            android:padding="5dp"
+            android:inputType="textAutoComplete|textAutoCorrect"
+            android:textColor="@color/heading_color"
+            android:textColorHint="#606060"
+            android:textCursorDrawable="@drawable/purple_color_cursor_drawable"
+            android:textSize="@dimen/medium_text_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tV_browse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:padding="5dp"
+            android:text="@string/browse"
+            android:textColor="@color/colorPrimary"
+            android:visibility="gone"
+
+            />
+
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/scrollViewFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchBar"
+        android:background="@color/tab_bg"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/linear_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+
+    </HorizontalScrollView>
+
+    <View
+        android:id="@+id/view_filter_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/scrollViewFilter"
+        android:background="@color/news_divider_color" />
+
+
+    <!--ProgressBar
+        android:id="@+id/progress_bar_home"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:indeterminateDrawable="@drawable/custom_progress_background"
+        android:visibility="gone" /-->
+
+    <!-- Sell your stuff -->
+    <RelativeLayout
+        android:id="@+id/rL_sell_stuff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/sixty_five_dp"
+        android:background="@drawable/rounded_rectangular_purple_color_with_solid_shape"
+        android:paddingBottom="@dimen/eight_dp"
+        android:paddingLeft="@dimen/twenty_dp"
+        android:paddingRight="@dimen/twenty_dp"
+        android:paddingTop="@dimen/eight_dp">
+
+        <ImageView
+            android:id="@+id/camera_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/simple_image_view"
+            android:src="@drawable/camera_icon" />
+
+        <com.lagel.com.custom_fonts.TextViewRobotoMedium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/five_dp"
+            android:layout_marginStart="@dimen/five_dp"
+            android:layout_toEndOf="@+id/camera_icon"
+            android:layout_toRightOf="@+id/camera_icon"
+            android:text="@string/sell_your_stuff"
+            android:textColor="@color/white"
+            android:textSize="@dimen/subheading_text_size" />
+    </RelativeLayout>
+
+    <!-- No post yet tag -->
+    <RelativeLayout
+        android:id="@+id/rL_noProductFound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="90dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/no_product_found"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/no_post_yet"
+            android:src="@drawable/empty_filter" />
+
+        <com.lagel.com.custom_fonts.TextViewRobotoMedium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/no_product_found"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/eight_dp"
+            android:text="@string/no_post_found"
+            android:textColor="@color/no_post_found_text_color"
+            android:textSize="@dimen/fifteen_sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rL_noProductFoundLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="90dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/no_product_found_FoundLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/no_post_yet"
+            android:src="@drawable/empty_filter" />
+
+        <com.lagel.com.custom_fonts.TextViewRobotoMedium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/no_product_found_FoundLocation"
+            android:layout_marginTop="@dimen/eight_dp"
+            android:gravity="center"
+            android:text="@string/label_not_products_location"
+            android:textColor="@color/no_post_found_text_color"
+            android:textSize="@dimen/fifteen_sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

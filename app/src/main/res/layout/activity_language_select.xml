@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lagel.com.main.activity.LanguageSelectActivity">
+
+    <!-- Action bar -->
+    <RelativeLayout
+        android:id="@+id/rL_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/bottom_shadow">
+
+        <RelativeLayout
+            android:id="@+id/rL_back_btn"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/cross_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/simple_image_view"/>
+        </RelativeLayout>
+        <com.lagel.com.custom_fonts.TextViewRobotoMedium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_color"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/rL_back_btn"
+            android:layout_toRightOf="@+id/rL_back_btn"
+            android:layout_marginStart="@dimen/five_dp"
+            android:layout_marginLeft="@dimen/five_dp"
+            android:text="@string/select_language"
+            android:textSize="@dimen/action_bar_text_size"/>
+    </RelativeLayout>
+
+    <!--Language Selection-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <RadioGroup
+            android:id="@+id/rg_language"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:layout_marginStart="@dimen/ten_dp">
+
+            <RadioButton
+                android:id="@+id/rb_eg"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fourty_five_dp"
+                android:text="@string/english_language"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/news_divider_color"/>
+
+            <RadioButton
+                android:id="@+id/rb_ar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fourty_five_dp"
+                android:text="@string/french_language"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/news_divider_color"/>
+
+            <RadioButton
+                android:id="@+id/rb_es"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fourty_five_dp"
+                android:text="@string/spanish"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/news_divider_color"/>
+
+
+        </RadioGroup>
+        <!--done-->
+        <RelativeLayout
+            android:id="@+id/rL_apply"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/status_bar_color"
+            >
+            <com.lagel.com.custom_fonts.TextViewRobotoMedium
+                android:id="@+id/tV_save"
+                android:gravity="center"
+                android:textSize="@dimen/action_bar_text_size"
+                android:textColor="@color/white"
+                android:text="@string/done"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

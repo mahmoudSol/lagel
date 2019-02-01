@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    >
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.lagel.com.utility.DynamicHeightImageView
+            android:id="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/default_image"
+            android:contentDescription="@string/simple_image_view"
+            />
+        <RelativeLayout
+            android:layout_below="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/five_dp"
+            android:layout_marginLeft="@dimen/five_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+            <com.lagel.com.custom_fonts.TextViewRobotoMedium
+                android:layout_centerHorizontal="true"
+                android:id="@+id/tV_heading"
+                android:textSize="14sp"
+                android:textColor="@color/item_name_color"
+                android:text="@string/daniel_welllington"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <com.lagel.com.custom_fonts.TextViewRobotoMedium
+                android:id="@+id/tV_subHeading"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:layout_below="@id/tV_heading"
+                android:textSize="12sp"
+                android:textColor="@color/sub_heading_color"
+                android:text="@string/amelia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--<View
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divider_color"/>-->
+</LinearLayout>
+</android.support.v7.widget.CardView>

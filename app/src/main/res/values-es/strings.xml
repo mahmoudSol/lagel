@@ -1,0 +1,1339 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="app_name">Lagel</string>
+    <string name="temp_text">$200</string>
+    <string name="recent_search">Recent</string>
+    <string name="speech_not_supported">This Device doesn\'t support text to speech</string>
+    <string name="speech_prompt">Say Something...</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="double_zero_after_dot">.00</string>
+    <string name="double_zero">00</string>
+    <string name="at_the_rate">\@\</string>
+    <string name="question_mark">\?\</string>
+    <string name="reconditioned">Reconditionné / Certifié</string>
+
+    <!-- Special symbol -->
+    <string name="colon_symbol">:</string>
+
+    <!-- Keys -->
+    <string name="facebook_app_id">146633089257898</string>
+    <string name="google_map_api_key">AIzaSyCCCRUAhS630RS4Dxfxw-X5mpbJ6CtfYyU</string>
+    <!--<string name="google_map_api_key">AIzaSyAJfYd-koy6B3yvE8KHB13OxnJMNOpRy_g</string>-->
+    <string name="google_map_geo_api_key1">AIzaSyAi09badjBQ89bYZDgqDHa8g3bhppWlHdM</string>
+    <string name="google_map_geo_api_key2">AIzaSyDL3VHU72hzpQG7uUM2GGEWnYzfWOwHlgc</string>
+    <string name="servers_client_id">87665108747-cbiu6fnktetq5ehmcsds3ogcqlkov0co.apps.googleusercontent.com </string>
+    <!--<string name="servers_client_id">1028099208396-tfs8dke2trvvq1oohi666hpg8u3umd7n.apps.googleusercontent.com</string>-->
+    <string name="adMobInterstialId">ca-app-pub-1936218676436291/4692300932</string>
+    <string name="adMobBannerId">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="one">1</string>
+
+    <!-- Landing page -->
+    <string name="continue_with_fb">Continuar con Facebook</string>
+    <string name="continue_with_google">Continuar con Google</string>
+    <string name="by_continuing">Al continuar con Lagel, usted acepta los</string>
+    <string name="termscondition"><u>Términos y condiciones</u></string>
+    <string name="and">y</string>
+    <string name="privacyPolicy"><u>Política de privacidad</u></string>
+    <string name="quick_connect_with">Conéctese rápidamente con</string>
+    <string name="create_account_text">Cree una cuenta para comprar, vender y comunicarse con vendedores cerca de usted.</string>
+    <!-- Login page -->
+    <string name="phoneOrEmailOrUser">Nombre de Usuario</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="forgot_your_login">¿Ha olvidado sus datos de acceso?</string>
+    <!--string name="get_help_signing_in_"><u>Obtenga ayuda para iniciar su sesión.</u></string-->
+    <string name="get_help_signing_in"><u>Olvido su contraseña?</u></string>
+    <string name="or"><u>O</u></string>
+    <!-- Login with facebook -->
+    <string name="Loginfailed">Error al iniciar sesión</string>
+    <!-- Forgot password -->
+    <string name="forgot_password">Olvide mi contraseña</string>
+    <string name="find_your_acc">Encuentre su cuenta</string>
+    <string name="enter_your_email_add">Ingrese la dirección de correo electrónico asociada con su cuenta.</string>
+    <string name="send">Enviar</string>
+    <!--Sign up-->
+    <string name="sign_up1">Regístrate</string>
+    <string name="sign_up">Crear Nueva Cuenta</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="phone_number">Número de teléfono</string>
+    <string name="user_name">Nombre de Usuario</string>
+    <string name="user_full_name">Nombre completo</string>
+    <string name="mobile_number">Número de teléfono móvil</string>
+    <string name="number">Número</string>
+    <string name="emai_id">Correo Electrónico</string>
+    <string name="phone_label">Telefono</string>
+    <string name="email_label">Correo Electrónico</string>
+    <string name="location">Ubicación</string>
+    <string name="gender">Género</string>
+    <string name="by_signing_up">Al registrarte, aceptas nuestra</string>
+    <string name="create">Haga clic aquí para finalizar</string>
+    <string name="updateProfilePic">Actualizar foto de perfil</string>
+    <string name="take_beautiful_pic">Toma una nueva foto</string>
+    <string name="choose_existing_img">Elige una foto existente</string>
+    <string name="remove_existing_img">Eliminar una foto existente</string>
+    <string name="browse">Explorar</string>
+    <string name="please_enter_password">Por favor, ingrese su contraseña</string>
+    <string name="please_accept_termsNconditions">Por favor, acepte los Términos y Condiciones</string>
+    <string name="username_already_registered">Nombre de usuario ya registrado</string>
+    <string name="email_already_registered">Correo electrónico ya registrado</string>
+    <string name="phone_already_registered">Número móvil ya registrado</string>
+    <string name="do_you_already_have_a_lagel_account_if_yes_click_here"><u>¿Ya tienes una cuenta de Lagel?</u></string>
+    <string name="if_yes_click_here">Si contestó si,\nHaga clic aquí</string>
+    <!-- Number Verification screen -->
+    <string name="number_verification">Verificación de número</string>
+    <string name="enter_verification_code">Introduzca el código de verificación</string>
+    <string name="enter_the_code">Ingrese el código que enviamos a</string>
+    <string name="resend_code">Reenviar codigo.</string>
+    <string name="verify">Verificar</string>
+    <string name="invalid_otp_code">Código de OTP inválido</string>
+    <!-- Home page tabs -->
+    <string name="home">Principal</string>
+    <string name="socail">Social</string>
+    <string name="Chat">Chat</string>
+    <string name="Profile">Perfil</string>
+    <!--Home page search text -->
+    <string name="sell_your_stuff">Venda sus artículos</string>
+    <string name="featured">Destacado</string>
+    <!--Home page news feed tab-->
+    <string name="time">Hora</string>
+    <string name="please_follow_user">Por favor siga a los usuarios para ver</string>
+    <string name="post_in_your">publicaciones en su página de noticias</string>
+    <string name="find_friends">Encontrar amigos</string>
+    <!-- Home page chat   -->
+    <string name="buying">Comprar</string>
+    <string name="selling">Vender</string>
+    <string name="daniel_welllington">Daniel Wellington Classic</string>
+    <string name="amelia">Amelia Kelly</string>
+    <string name="thousasnd_of_buyer">Miles de compradores son</string>
+    <string name="browsing_yelo">Navegando Lagel ahora mismo</string>
+    <string name="no_chat_available">No hay mensajes disponibles</string>
+    <!--Home Profile chat-->
+    <string name="profile">Perfil</string>
+    <string name="posts">Publicaciones</string>
+    <string name="people">Vendedores</string>
+    <string name="followings">Siguiendo</string>
+    <string name="edit_profile">Editar perfil</string>
+    <string name="sold">Vendido</string>
+    <string name="favourites">Favoritos</string>
+    <string name="call">Llamada</string>
+    <string name="Email">Correo Electrónico  o Número Telefono</string>
+    <!-- Explore notification -->
+    <string name="you">Tú</string>
+    <string name="liked_your_post">le gustó tu publicación</string>
+    <string name="startes_following">comenzó a seguir</string>
+    <string name="left_a_review_on">dejó una reseña en</string>
+    <string name="commented_your_post">dejó un comentario en tu publicación</string>
+    <string name="startedFollowingYou">empecé a seguirte</string>
+    <string name="welcome_on_yelo">Bienvenido a Lagel!</string>
+    <string name="make_money_selling">Ganar dinero vendiendo Lo que no necesitas</string>
+    <string name="and_find_great">y encuentra grandes ofertas cercanas</string>
+    <string name="no_following_yet">¡Sin seguimiento aún!</string>
+    <string name="no_follower_yet">¡Ningún seguidor todavía!</string>
+    <string name="send_a_offer_on_your_product">Enviado una oferta en su producto</string>
+    <string name="liked">gustos</string>
+    <string name="own">propio</string>
+    <!-- country code and symbol -->
+    <string name="Code">HTG</string>
+    <string name="Symbol">G</string>
+    <!-- Explore Filter -->
+    <string name="filter">Filtrar</string>
+    <string name="change_Location">Cambiar locación</string>
+    <string name="category">Categorías</string>
+    <string name="distance">Distancia</string>
+    <string name="sort_by">Ordenar por</string>
+    <string name="please_select_your_loc">Por favor seleccione ubicación</string>
+    <string name="distanceAsc">distanciaAsc</string>
+    <string name="postedOnDesc">publicadoenDesc</string>
+    <string name="priceAsc">precioAsc</string>
+    <string name="priceDsc">precioAsc</string>
+    <string name="newest_first">Lo más reciente primero</string>
+    <string name="closest_first">Lo más cercano primero</string>
+    <string name="price_low_to_high">Precio: más bajo a más alto</string>
+    <string name="price_high_to_low">Precio: más alto a más bajo</string>
+    <string name="posted_within">Publicado Dentro</string>
+    <string name="the_last_24hr">Las últimas 24 horas</string>
+    <string name="the_last_7day">Los últimos 7 días</string>
+    <string name="the_last_30day">Los últimos 30 días</string>
+    <string name="all_producs">Todos los productos</string>
+    <string name="min_price_cant_be_higher">El precio mínimo no puede ser más alto que el precio máximo.</string>
+    <!-- Change location -->
+    <string name="change_location">Cambiar Ubicación</string>
+    <string name="confirm_location">Confirmar Ubicación</string>
+    <!-- Product details -->
+    <string name="add_a_review">Revisar</string>
+    <string name="share_item">Compartir artículo</string>
+    <string name="share_on_fb">Compartir en Facebook</string>
+    <string name="copy_image_url">Copiar y Compartir URL</string>
+    <string name="sold_by">Vendido por</string>
+    <string name="follow">Seguir</string>
+    <string name="unfollow">Dejar de seguir</string>
+    <string name="description">Descripción</string>
+    <string name="conditions">Condición</string>
+    <string name="default_location">1241 East Main Street\nStamford CT 06902</string>
+    <string name="negotiable">Negociable</string>
+    <string name="not_negotiable">No negociable</string>
+    <string name="make_offer">Hacer una oferta</string>
+    <string name="your_offer">Tu oferta :</string>
+    <string name="asking_price">Precio Inicial :</string>
+    <string name="away">lejos</string>
+    <string name="product_location">Ubicación de Productos</string>
+    <string name="url_copied">URL copiada</string>
+    <string name="chat">CHAT</string>
+    <!-- Report product -->
+    <string name="report_item">Reportar Artículo</string>
+    <string name="report">rapport</string>
+    <string name="why_do_you_want">¿Por qué quieres reportar este artículo?</string>
+    <string name="the_product_report_has_been">El producto ha sido reportado ¡Gracias!</string>
+    <string name="the_report_is_already_reported">El producto ya ha sido reportado. ¡Gracias!</string>
+    <!-- Report user -->
+    <string name="report_user">Reportar Usuario</string>
+    <string name="the_user_report_has_been">El usuario ha sido reportado. Gracias</string>
+    <!-- Review product -->
+    <string name="review">Comentarios</string>
+    <string name="add_review">Agregar un Comentario</string>
+    <string name="there_is_no_review">No hay comentarios sobre este producto,</string>
+    <string name="be_the_first">se el primero en agregar uno</string>
+    <!-- Profile Settings -->
+    <string name="profile_details">Los detalles del perfil no se pudieron cargar</string>
+    <string name="please_try_again"><u>Por favor, inténtelo de nuevo</u>.</string>
+    <string name="private_information">Información privada</string>
+    <string name="setting">Configuraciones</string>
+    <string name="website">Sitio Web</string>
+    <string name="bio">Bio</string>
+    <string name="follow_people">Seguir personas</string>
+    <string name="find_facebook_friends">Encuentra amigos de Facebook</string>
+    <string name="connect_to_contacts">Conéctate a Contactos</string>
+    <string name="account">Cuenta</string>
+    <string name="support">Ayuda</string>
+    <string name="language">Idioma</string>
+    <string name="report_a_problem">Reportar un Problema</string>
+    <string name="about">Acerca de</string>
+    <string name="search_text">Buscar…</string>
+    <string name="search_post">Buscar publicaciones</string>
+    <string name="search_people">Buscar vendedores</string>
+    <string name="no_post">Sin publicación</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="termsNcondition">Términos y condiciones</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="version">Version de la  Aplicación</string>
+    <string name="are_you_sure_u_want">¿Estás seguro de que quieres desconectarte?</string>
+    <string name="do_you_want_to_sell_it_again">¿Quieres venderlo de nuevo?</string>
+    <string name="sell_it_again">Véndelo de nuevo</string>
+    <string name="no_post_yet">¡Sin publicar aún!</string>
+    <string name="no_sold_yet">¡No se ha vendido todavía!</string>
+    <string name="no_post_found">No hay anuncios cerca de usted todavía. Sé el primero en publicar.</string>
+    <string name="verified_with">Verificado con</string>
+    <string name="paypal_me">Paypal.Me</string>
+    <string name="payment">Pagos</string>
+    <string name="my_payment">Mis pagos</string>
+    <string name="no_likes_yet_be_the_first">¡Ningún me gusta todavía! Sé el primero en darle un me gusta a este producto</string>
+    <string name="no_ads_yet">No hay anuncios todavía?</string>
+    <string name="snapNpostIn">Ajustar y publicar en 30 segundos!</string>
+    <string name="start_selling">Empieza a vender</string>
+    <string name="start_browsing">Comienza a navegar</string>
+    <string name="found_your_fav_yet">¿Ya encontrastes tu favorito?</string>
+    <string name="ads_you_love_and_mark">Los anuncios que te gusten y marques como \"favoritos\" aparecerán aquí</string>
+    <string name="start_discovery">Comience a descubrir</string>
+    <string name="mark_as_sold">Marcar como vendido</string>
+    <string name="rate_user">Usuario de tasa</string>
+    <string name="would_you_sell_to_megan_again">¿Venderías a</string>
+    <string name="again">¿de nuevo?</string>
+    <string name="price_offered">Precio ofrecido</string>
+    <string name="select_the_buyer_to_rate">Seleccione el comprador para calificar</string>
+    <string name="sold_it_somewhere_else">Lo vendí en otro lado</string>
+    <string name="want_to_sell_somewhere_else">Vendido</string>
+    <string name="i_didnt_sell_it_on_offerup">No lo vendí en Lagel</string>
+    <string name="select">Seleccionar</string>
+    <string name="absolutely_not">Absolutamente,</string>
+    <string name="not">No.</string>
+    <string name="yes">Sí,</string>
+    <string name="Yes">sí</string>
+    <string name="no">No</string>
+    <string name="definitely">¡Seguro!</string>
+    <string name="submit_rating">Enviar calificación</string>
+    <string name="you_havnt_received">¡Aún no has recibido ningún mensaje u oferta!</string>
+    <string name="delete_this_product">Eliminar este producto</string>
+    <string name="edit_this_product">Editar este producto</string>
+    <string name="update">Actualizar</string>
+    <string name="update_post">Actualizar Publicación</string>
+    <string name="promotions">Promocionar mi anuncio</string>
+    <string name="promote_this_item">Promocionar este artículo</string>
+    <!-- Connect paypal -->
+    <string name="connect_paypal">Conectar a Paypal</string>
+    <string name="if_you_already_have_paypal">Si ya tienes un enlace de Paypal.me, agrégalo aquí</string>
+    <string name="example_https">Ejemplo:<u>https://www.paypal.me/lagel</u></string>
+    <string name="connect_paypal_link">https://www.paypal.me/</string>
+    <string name="get_my">Obtener mi</string>
+    <string name="link">enlace</string>
+    <string name="your_name">tu nombre</string>
+    <string name="get_paypal">Obtener Paypal</string>
+    <!--Language Select-->
+    <string name="select_language">Seleccione el idioma</string>
+    <string name="english_language">Inglés</string>
+    <string name="french_language">Francés</string>
+    <string name="default_language_code">en</string>
+    <string name="french_language_code">fr</string>
+    <!--Discover people screen-->
+    <string name="discover_people">Descubrir Personas</string>
+    <string name="connect_to_fb">Conéctate a Facebook</string>
+    <string name="to_follow_ur_friends">seguir a tus amigos</string>
+    <string name="hide">Ocultar</string>
+    <string name="contacts">Contactos</string>
+    <!-- Post product -->
+    <string name="post_product">Publicar producto</string>
+    <string name="add_title">Añadir título&#8230;</string>
+    <string name="descriptions">Descripción&#8230;</string>
+    <string name="Product_category">categoria de producto</string>
+    <string name="currency">Moneda</string>
+    <string name="price">Precio</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="post">Enviar</string>
+    <string name="currency_list">Lista de Monedas</string>
+    <string name="country">País</string>
+    <string name="code">Código</string>
+    <string name="symbol">Símbolo</string>
+    <string name="please_add_title">Por favor agregue título</string>
+    <string name="please_add_description">Por favor agrega la descripción</string>
+    <string name="please_select_product_cate">Por favor seleccione categoría de producto</string>
+    <string name="please_select_condition">Por favor seleccione la condición</string>
+    <string name="please_select_currency">Seleccione moneda</string>
+    <string name="please_enter_price">Por favor ingrese el precio</string>
+    <string name="please_enter_location">Por favor ingrese la ubicación</string>
+    <string name="at_least_one_image_is">Se requiere por lo menos una foto</string>
+    <string name="add_upto_4_more_img">Agrega hasta 4 fotos más (opcional)</string>
+    <string name="add_upto_3_more_img">Agregue hasta 3 fotos más (opcional)</string>
+    <string name="add_upto_2_more_img">Agregue hasta 2 fotos más (opcional)</string>
+    <string name="add_upto_1_more_img">Agrega hasta 1 foto más (opcional)</string>
+    <string name="congratulation">¡Felicidades!</string>
+    <string name="successfully_posted">Su listado se publicó con éxito</string>
+    <!-- Product conditions -->
+
+    <string name="other">Autre</string>
+    <string name="refurbished">Reformado</string>
+    <string name="used_normal_wear">Usado</string>
+    <string name="open_box">Caja Abierta (nunca usado)</string>
+    <string name="collectible">Coleccionable</string>
+    <string name="new_never_used">Nuevo</string>
+    <!-- Insight screen -->
+    <string name="insights">ideas</string>
+    <string name="this_week">Esta semana</string>
+    <string name="this_month">Este mes</string>
+    <string name="this_year">Este año</string>
+    <string name="posted_on">Publicado en</string>
+    <string name="time_frame">Periodo de tiempo</string>
+    <string name="unique_click">Clics únicos</string>
+    <string name="total_click">Clic total</string>
+    <string name="saved">Guardado</string>
+    <string name="click">Clics</string>
+    <string name="clicks_from">Clics desde</string>
+    <!-- Item Promotion -->
+    <string name="choose_a_plan">Elija un Plan de funciones</string>
+    <string name="purchase">Compra</string>
+    <!-- Common text -->
+    <string name="camera_error">Este dispositivo no es compatible con la API de Camera2.</string>
+    <string name="failedToUpload">Error al cargar las imágenes. ¡Inténtalo de nuevo!</string>
+    <string name="simple_image_view">Esta es una vista simple de la imagen</string>
+    <string name="password">Contraseña</string>
+    <string name="message">Mensaje</string>
+    <string name="error_message">Aquí hay un error</string>
+    <string name="dialog_ok">OK</string>
+    <string name="NoInternetAccess">Sin acceso a Internet</string>
+    <string name="demo_price">100</string>
+    <string name="default_price">0.00</string>
+    <string name="zero">0</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Salvar</string>
+    <string name="search">Buscar en Lagel</string>
+    <string name="country_code">Código</string>
+    <string name="country_name">Nombre del país</string>
+    <string name="select_country">Seleccione el código de país</string>
+    <string name="select_country2">Seleccione el país</string>
+    <string name="notification">Notificaciones</string>
+    <string name="min_dist">0 km</string>
+    <string name="max">Max</string>
+    <string name="min_price">Min</string>
+    <string name="max_price">Max</string>
+    <string name="km">Km</string>
+    <string name="Followers">Seguidores</string>
+    <string name="Following">Siguiendo</string>
+    <string name="likes">Gustos</string>
+    <string name="done">Hecho</string>
+    <string name="reset">Reiniciar</string>
+    <string name="apply">Aplicar</string>
+    <string name="from">De</string>
+    <string name="to">Para</string>
+    <string name="remove">retirar</string>
+    <string name="of">de</string>
+    <string name="submit">Enviar</string>
+    <string name="camera_roll">Rollo de la cámara</string>
+    <string name="you_can_select_only_upto">Solo puedes tomar hasta un máximo de 5 fotos</string>
+    <string name="report_email">report@lagel.net</string>
+    <string name="problem_on_yelo">Problema en Lagel</string>
+    <string name="friend_on">Amigo en</string>
+    <string name="friends_on">Amigos en</string>
+    <string name="friend">Amigo</string>
+    <string name="friends">Amigos</string>
+    <string name="ok">OK</string>
+    <string name="cover">Cubrir</string>
+    <string name="know_more">Saber más</string>
+    <string name="permission_denied">Permiso denegado</string>
+    <string name="please_allow_the_permission">Por favor, permita el permiso para acceder al</string>
+    <string name="by_clicking_on_allow_button">haciendo clic en el botón Permitir.</string>
+    <string name="allow">Permitir</string>
+    <string name="camera">Cámara</string>
+    <string name="external_storage">Almacenamiento externo</string>
+    <string name="coarse_location">Ubicación aproximada</string>
+    <string name="fine_location">Buena ubicación</string>
+    <string name="read_contact">Leer el teléfono de contacto</string>
+    <string name="you_just_bought">Usted acaba de comprar</string>
+    <string name="pls_rate_your_exp_with">Califique su experiencia con el vendedor haciendo clic aquí</string>
+    <!--Fetch Address-->
+    <string name="no_address_found">Lo sentimos, no se encontró una dirección</string>
+    <string name="no_location_data_provided">No se proporcionaron datos de ubicación</string>
+    <string name="service_not_available">Lo sentimos, el servicio no está disponible</string>
+    <string name="invalid_lat_long_used">Latitud o longitud utilizada inválida</string>
+    <!-- Currency symbol -->
+    <string name="usd">$</string>
+    <string name="plus">+</string>
+    <string name="star">*</string>
+    <!-- Special symbol -->
+    <!-- Keys -->
+    <!--
+    <string name="google_map_api_key">AIzaSyAJfYd-koy6B3yvE8KHB13OxnJMNOpRy_g</string>-->
+    <!--
+    <string name="servers_client_id">1028099208396-tfs8dke2trvvq1oohi666hpg8u3umd7n.apps.googleusercontent.com</string>-->
+    <!--App ID: ca-app-pub-1936218676436291~9929469060
+Ad unit ID: ca-app-pub-1936218676436291/4102427313-->
+    <!-- Links -->
+    <string name="termsNconditionsUrl">https://lagel.net/terms</string>
+    <string name="privacyPolicyUrl">https://lagel.net/privacy</string>
+    <string name="share_item_base_url">https://lagel.net/item/</string>
+    <!--Country iso code and number-->
+    <string-array name="currency_picker">
+        <!--
+            <item>Honduras,HNL,L</item>
+            <item>Hong Kong,HKD,HK$</item>
+            <item>Hungary,HUF,Ft</item>
+            <item>Iceland,ISK,ISK</item>
+            <item>India,INR,₹</item>
+            <item>Indonesia,IDR,Rp</item>
+            <item>Iran,IRR,	Ø±ÙŠØ§Ù„</item>
+            <item>Iraq,IQD,	Ø¹.Ø¯</item>
+            <item>Ireland,EUR,â‚¬</item>
+            <item>Isle of Man,GBP,UKÂ£</item>
+            <item>Israel,ILS,â‚ª</item>
+            <item>Italy,EUR	,â‚¬</item>
+            <item>Jamaica,JMD,JA$</item>
+            <item>Japan,JPY,JPÂ¥</item>
+            <item>Jersey,GBP,UKÂ£</item>
+            <item>Jordan,JOD,JD</item>
+            <item>Kazakhstan,KZT,KZT</item>
+            <item>Kenya,KES,KSh</item>
+            <item>Kiribati,AUD,AU$</item>
+            <item>Korea North,KPW,â‚©</item>
+            <item>Korea South,KRW,â‚©</item>
+            <item>Kuwait,KWD,Ø¯.Ùƒ</item>
+            <item>Kyrgyzstan,KGS,KGS</item>
+            <item>Latvia,LVL,Ls</item>
+            <item>Lebanon,LBP,Ù„.Ù„</item>
+            <item>Lesotho,LSL,L</item>
+            <item>Liberia,LRD,L$</item>
+            <item>Libya,LYD,Ù„.Ø¯</item>
+            <item>Liechtenstein,CHF,CHF</item>
+            <item>Luxembourg,EUR,â‚¬</item>
+            <item>Macedonia,MKD,MKD</item>
+            <item>Madagascar,MGA,MGA</item>
+            <item>Malawi,MWK,MK</item>
+            <item>Malaysia,MYR,RM</item>
+            <item>Maldives,MVR,MRf</item>
+            <item>Mali,XOF,franc</item>
+            <item>Malta,MTL,Lm</item>
+            <item>Marshall Islands,USD,US$</item>
+            <item>Martinique,EUR,â‚¬</item>
+            <item>Mauritania,MRO,UM</item>
+            <item>Mauritius,MUR,MUâ‚¨</item>
+            <item>Mayotte,EUR,â‚¬</item>
+            <item>Mexico,MXN,Mex$</item>
+            <item>Micronesia,USD,US$</item>
+            <item>Moldova,MDL,MDL</item>
+            <item>Mongolia,MNT,â‚®</item>
+            <item>Montenegro,EUR,â‚¬</item>
+            <item>Montserrat,XCD,EC$</item>
+            <item>Morocco,MAD,Ø¯.Ù…</item>
+            <item>Mozambique,MZN,MTn</item>
+            <item>Myanmar(Burma),MMK,K</item>
+            <item>Namibia,NAD,N$</item>
+            <item>Nauru,AUD,AU$</item>
+            <item>Nepal,NPR,NPâ‚¨</item>
+            <item>Netherlands,EUR,â‚¬</item>
+            <item>Netherlands Antilles,ANG,NAÆ’</item>
+            <item>New Caledonia,XPF,CFP</item>
+            <item>New Zealand,NZD,NZ$</item>
+            <item>Nicaragua,NIO,C$</item>
+            <item>Niger,XOF,franc</item>
+            <item>Nigeria,NGN,â‚¦</item>
+            <item>Niue,NZD,NZ$</item>
+            <item>Norfolk Island,AUD,AU$</item>
+            <item>Northern Mariana Islands,USD,US$</item>
+            <item>Norway,NOK,Ã¸re</item>
+            <item>Oman,OMR,Ø±.Ø¹</item>
+            <item>Pakistan,PKR,PKRs</item>
+            <item>Palau,USD,US$</item>
+            <item>Palestine,JOD,JD</item>
+            <item>Panama,PAB,PAB</item>
+            <item>Papua New Guinea,PGK,K</item>
+            <item>Paraguay,PYG,â‚²</item>
+            <item>Peru,PEN,S./</item>
+            <item>Philippines,PHP,â‚±</item>
+            <item>Pitcairn Islands,NZD,NZ$</item>
+            <item>Poland,PLN,zÅ‚</item>
+            <item>Portugal,EUR,â‚¬</item>
+            <item>Puerto Rico,USD,US$</item>
+            <item>Qatar,QAR,Ø±.Ù‚</item>
+            <item>Reunion,EUR,â‚¬</item>
+            <item>Romania,RON,ROL</item>
+            <item>Russia,RUB,RUÑ€ÑƒÐ±</item>
+            <item>Rwanda,RWF,RF</item>
+            <item>St Helena,SHP,SHÂ£</item>
+            <item>St Kitts &amp; Nevis,XCD,EC$</item>
+            <item>St Lucia,XCD,EC$</item>
+            <item>St Pierre &amp; Miquelon,EUR,â‚¬</item>
+            <item>St Vincent &amp; Grenadines,XCD,EC$</item>
+            <item>Samoa,WST,WS$</item>
+            <item>Samoa(American),USD,US$</item>
+            <item>San Marino,EUR,â‚¬</item>
+            <item>Sao Tome &amp; Principe,STD,Db</item>
+            <item>Saudi Arabia,SAR,Ø±.Ø³</item>
+            <item>Senegal,XOF,franc</item>
+            <item>Serbia,RSD,Ð´Ð¸Ð½</item>
+            <item>Seychelles,SCR,SRe</item>
+            <item>Sierra Leone,SLL,Le</item>
+            <item>Singapore,SGD,S$</item>
+            <item>Slovakia,SKK,Sk</item>
+            <item>Slovenia,EUR,â‚¬</item>
+            <item>Solomon Islands,SBD,SI$</item>
+            <item>Somalia,SOS,Sh</item>
+            <item>South Africa,ZAR,SAR</item>
+            <item>South Georgia Islands,GBP,UKÂ£</item>
+            <item>Spain,EUR,â‚¬</item>
+            <item>Sri Lanka,LKR,LKâ‚¨</item>
+            <item>Sudan,SDD,Â£Sd</item>
+            <item>Suriname,SRD,SR$</item>
+            <item>Svalbard &amp; Jan Mayen,NOK,Ã¸re</item>
+            <item>Sweden,SEK,kr</item>
+            <item>Switzerland,CHF,CHF</item>
+            <item>Syria,SYP,SÂ£</item>
+            <item>Taiwan,TWD,NT$</item>
+            <item>Tajikistan,TJS,TJS</item>
+            <item>Tanzania,TZS,TSh</item>
+            <item>Thailand,THB,à¸¿</item>
+            <item>Timor-Leste,USD,US$</item>
+            <item>Togo,XOF,franc</item>
+            <item>Tokelau,NZD,NZ$</item>
+            <item>Tonga,TOP,PT$</item>
+            <item>Trinidad &amp; Tobago,TTD,TT$</item>
+            <item>Tunisia,TND,Ø¯.Øª</item>
+            <item>Turkey,TRY,YTL</item>
+            <item>Turkmenistan,TMM,m</item>
+            <item>Turks &amp; Caicos Islands,USD,US$</item>
+            <item>Tuvalu,AUD,AU$</item>
+            <item>Uganda,UGX,USh</item>
+            <item>Ukraine,UAH,â‚´</item>
+            <item>United Arab Emirates,AED,Ø¯.Ø¥</item>
+            <item>UK,GBP,UKÂ£</item>
+            <item>USA,USD,US$</item>
+            <item>Uruguay,UYU,UR$</item>
+            <item>Uzbekistan,UZS,UZS</item>
+            <item>Vanuatu,VUV,Vt</item>
+            <item>Vatican City,EUR,â‚¬</item>
+            <item>Venezuela,VEB,Bs</item>
+            <item>Vietnam,VND,â‚«</item>
+            <item>Virgin Islands British,USD,US$</item>-->
+        <item>Estados Unidos, USD, US $</item>
+        <item>Haiti,HTG,G</item>
+        <item>République Dominicaine,peso,RD$</item>
+        <item>Todos,All,All</item>
+    </string-array>
+    <!--chat string code-->
+    <string name="AlreadyDownloading">¡Ya se está descargando!</string>
+    <string name="PermissionDenied">Permiso denegado</string>
+    <string name="DownloadConfirmation">Confirmación de Descarga</string>
+    <string name="Download">Descargar</string>
+    <string name="SizeImage">tamaño de imagen?</string>
+    <string name="Ok">OK</string>
+    <string name="Cancel">Cancelar</string>
+    <string name="ContinueCapital">CONTINUAR</string>
+    <string name="SizeVideo">¿tamaño de video?</string>
+    <string name="DownloadFailed">¡La Descarga Fracasó!</string>
+    <string name="FileNotFound">¡Archivo no encontrado!</string>
+    <string name="DownloadCanceled">¡Descarga cancelada!</string>
+    <string name="NoInternet">¡Sin conexión a Internet!</string>
+    <string name="ImageCamelCase">Imagen</string>
+    <string name="VideoCamelCase">Vídeo</string>
+    <string name="ImageDownloaded">¡Imagen descargada!</string>
+    <string name="VideoDownloaded">¡Video descargado!</string>
+    <string name="DoodleDownloaded">¡Doodle descargado!</string>
+    <string name="StorageAccess">Permitir acceso de almacenamiento externo para descargar %s</string>
+    <string name="Gallery">Galería</string>
+    <string name="GalleryAccess">Permitir el acceso a la galería</string>
+    <string name="SelectPicture">Seleccionar imagen</string>
+    <string name="CaptureImagePermission">¡Permiso de almacenamiento externo requerido para guardar la imagen capturada!</string>
+    <string name="StorageAccessDenied">¡Acceso denegado al permiso de almacenamiento externo!</string>
+    <string name="CameraAbsent">¡Cámara no encontrada!</string>
+    <string name="AnotherVideo">¡El video no puede ser seleccionado, prueba videos diferentes!</string>
+    <string name="GreaterThan">No se puede enviar un video mayor que</string>
+    <string name="VideoError">Error al enviar el video. ¡Inténtalo de nuevo!</string>
+    <string name="ImageError">Error al enviar la imagen, ¡Inténtalo de nuevo!</string>
+    <string name="CaptureAgain">La imagen no se puede enviar ¡Inténtalo de Nuevo!</string>
+    <string name="AnotherImage">La imagen no puede ser seleccionada, intente con otra imagen</string>
+    <string name="Mb">Mb</string>
+    <string name="Today">Hoy</string>
+    <string name="Yesterday">Ayer</string>
+    <string name="NoChatWith">Sin chatear</string>
+    <string name="TryDownload">¡Intenta descargar!</string>
+    <string name="AccessCamera">Permitir acceso a la cámara</string>
+    <string name="AccessCameraDenied">¡Permiso de acceso a la cámara denegado!</string>
+    <string name="Unknown">Desconocido</string>
+    <string name="PlayConfirmation">Confirmación de juego</string>
+    <string name="NoApp">No hay una aplicación instalada para reproducir audio?</string>
+    <string name="PlayHere">JUEGA AQUÍ</string>
+    <string name="AudioDownloaded">¡Audio Descargado!</string>
+    <string name="AudioCamelCase">Audio</string>
+    <string name="LocationCamelCase">Ubicación</string>
+    <string name="ContactCamelCase">Contacto</string>
+    <string name="AudioReceived">Audio recibido</string>
+    <string name="AudioNotFound">Audio no encontrado</string>
+    <string name="AudioSent">Audio enviado</string>
+    <string name="SizeAudio">¿tamaño de audio?</string>
+    <string name="NoChats">No hay chats para mostrar</string>
+    <string name="Items">artículos</string>
+    <string name="video_nf">Video no encontrado</string>
+    <string name="NoMediaSent">Multimedia sin enviar todavía</string>
+    <string name="image_nf">Imagen no encontrada</string>
+    <string name="doodle_nf">Doodle no encontrado</string>
+    <string name="gif">GIFS</string>
+    <string name="stickers">STICKERS</string>
+    <string name="MediaSent">Multimedia enviada</string>
+    <string name="VideoNotDownloaded">¡Video aún no descargado!</string>
+    <string name="NoMediaRec">No se ha recibido multimedia todavía</string>
+    <string name="And">Y</string>
+    <string name="MediaReceived">Multimedia recibida</string>
+    <string name="VideoNotFound">¡Video no encontrado!</string>
+    <string name="Sent">EXPEDIDO</string>
+    <string name="Received">RECIBIDO</string>
+    <string name="AccessStorageDenied">¡Acceso denegado al permiso de almacenamiento!</string>
+    <string name="MediaHistory">HISTORIAL DE MULTIMEDIA</string>
+    <string name="MediaHistoryNotCapital">Historial de Multimedia</string>
+    <string name="DeleteChatCamelCase">Eliminar chat</string>
+    <string name="EnableLast">Habilitar último visto</string>
+    <string name="DisableLast">Desactivar último visto</string>
+    <string name="DeleteCon">Eliminar confirmación</string>
+    <string name="DeleteChatWith">Eliminar chat con</string>
+    <string name="No">NO</string>
+    <string name="Name">Nombre:</string>
+    <string name="Address">Dirección:</string>
+    <string name="LatLng">LatLng:</string>
+    <string name="LocationShared">Ubicación compartida</string>
+    <string name="OpenMap">MAPA ABIERTO</string>
+    <string name="NoLocationApp">¡No hay aplicación instalada para mostrar la ubicación!</string>
+    <string name="LatLngSelected">Lat/Lng seleccionado:</string>
+    <string name="LocationSelected">Ubicación seleccionada:</string>
+    <string name="LocationFailed">Error al seleccionar la ubicación, ¡Inténtalo de nuevo !</string>
+    <string name="AudioAgain">Error al enviar audio, ¡Inténtalo de nuevo!</string>
+    <string name="AudioGreater">No se puede enviar un audio mayor de</string>
+    <string name="AnotherAudio">¡El audio no puede ser seleccionado, prueba otro audio !</string>
+    <string name="AllowLocation">Permitir el acceso a la ubicación</string>
+    <string name="EnableLocation">¡Servicio de localización activado!</string>
+    <string name="string_803">Carga de archivos de Lagel</string>
+    <string name="Online">En línea</string>
+    <string name="Loading">Cargando&#8230;</string>
+    <string name="updating">Actualizando&#8230;</string>
+    <string name="deleting">Eliminando&#8230;</string>
+    <string name="posting">Publicación&#8230;</string>
+    <string name="ContactsDenied">¡Acceso a los contactos denegados!</string>
+    <string name="LocationDenied">¡Permiso de ubicación de acceso denegado!</string>
+    <string name="ContactDenied">¡El contacto no se puede seleccionar, pruebe con otro contacto!</string>
+    <string name="LocationSettings">Configuración de ubicación</string>
+    <string name="LocationServices">Los servicios de ubicación no están habilitados</string>
+    <string name="Enable">HABILITAR</string>
+    <string name="ContactAccess">Permitir el acceso a Contactos</string>
+    <string name="UploadFailed">¡Intento fallido!</string>
+    <string name="Upload_Failed">¡Error al subir la foto de perfil!</string>
+    <string name="DeleteSuccess">¡borrado exitosamente!</string>
+    <string name="DeleteMessage">¿Eliminar un mensaje es irreversible?</string>
+    <string name="Message">Mensaje</string>
+    <string name="OpenProfile">¡Abriré el perfil del usuario!</string>
+    <string name="TypeSomething">¡Escribe algo para enviar!</string>
+    <string name="Connecting">Conectando&#8230;</string>
+    <string name="WriteMessage">Escribe un mensaje…</string>
+    <string name="Offline">Desconectado</string>
+    <!--
+
+    For non-firebase signup and login
+
+    -->
+    <string name="EmptyEmail">Email no puede estar vacío</string>
+    <string name="EnterPW">Introduce la contraseña</string>
+    <string name="InvalidLength">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="SignInFailed">Error al iniciar sesión</string>
+    <string name="SigningIn">Usuario de inicio de sesión</string>
+    <string name="name_save">Ingrese un nombre válido para guardar</string>
+    <string name="name_atleast">El nombre debe tener al menos 4 caracteres</string>
+    <string name="EnterName">Deberíamos llamarte como ...</string>
+    <string name="ImageFailed">¡Lo siento! Error al seleccionar la imagen</string>
+    <string name="CaptureProfile">¡Accede al permiso de la cámara para capturar la imagen del perfil!</string>
+    <string name="SelectProfile">¡Se requiere permiso de almacenamiento para seleccionar la imagen de perfil!</string>
+    <string name="UserIdentifier">Ingrese una identificación de usuario válida</string>
+    <string name="FromGallery">Añadir imagen de la galería</string>
+    <string name="FromCamera">Tomar la imagen de la cámara</string>
+    <string name="ProfileImage">Añadir imagen de perfil</string>
+    <string name="UpdateNameFailed">¡No se pudo actualizar el nombre!</string>
+    <string name="UpdatePicFailed">¡No se pudo actualizar la foto de perfil!</string>
+    <string name="NoInternetConnectionAvailable">¡Sin conexión a Internet!</string>
+    <string name="phone_number_not_allowed_in_title">El número de teléfono no está permitido en el título</string>
+    <string name="phone_number_not_allowed_in_desc">El número de teléfono no está permitido en la descripción</string>
+    <string name="Sticker">Sticker</string>
+    <string name="Doodle">Garabatear</string>
+    <string name="Gif">Gif</string>
+    <string name="NewImage">Nueva imagen</string>
+    <string name="NewVideo">Nuevo Video</string>
+    <string name="NewLocation">Nueva Ubicación</string>
+    <string name="NewContact">Nuevo Contacto</string>
+    <string name="NewAudio">Nuevo Audio</string>
+    <string name="NewSticker">Nueva Etiqueta</string>
+    <string name="NewDoodle">Nuevo Doodle</string>
+    <string name="NewGiphy">Nuevo Giphy</string>
+    <string name="Image">Imagen</string>
+    <string name="Video">Vídeo</string>
+    <string name="Location">Ubicación</string>
+    <string name="Contact">Contacto</string>
+    <string name="Audio">Audio</string>
+    <string name="Stickers">Sticker</string>
+    <string name="Giphy">Giphy</string>
+    <string name="EnterSticker">¡Por favor, introduzca el nombre del sticker!</string>
+    <string name="EnterGiphy">Por favor, ingrese nombre del giphy</string>
+    <string name="Search">Buscar</string>
+    <string name="searching">Buscando...</string>
+    <string name="Typing">Escribiendo&#8230;</string>
+    <string name="DeleteConfirmation">Eliminar confirmación</string>
+    <string name="Continue">CONTINUAR</string>
+    <string name="DeleteChat">¿Eliminar un chat es irreversible?</string>
+    <string name="YouInvited">Usted ha invitado</string>
+    <string name="JoinSecretChat">para unirse a un chat de productos</string>
+    <string name="youAreInvited">Ha sido invitado por</string>
+    <string name="ProductChat">Chat de productos:</string>
+    <string name="ProductDetails">No es necesario escribir todos los detalles del producto</string>
+    <string name="detailsText">Detalles</string>
+    <!--
+
+    User's Screen
+
+    -->
+    <string name="FetchingUsers">Obteniendo usuarios</string>
+    <string name="FetchUsers">Obteniendo usuarios</string>
+    <string name="FetchFailed">Error al buscar usuarios</string>
+    <string name="OOM">Sin memoria. ¡Inténtalo de nuevo!</string>
+    <string name="SelectionCanceled">Selección de imagen cancelada</string>
+    <string name="CaptureFailed">¡Lo siento! Error al capturar la imagen</string>
+    <string name="CaptureCanceled">Captura de imagen cancelada</string>
+    <string name="CropFailed">¡Lo siento! Error al recortar la imagen</string>
+    <!--
+
+    Option on click of plus icon
+
+    -->
+    <string name="OptionCall">Chat</string>
+    <string name="OptionProfile">Perfil</string>
+    <string name="DoodleAccess">¡Acceda al permiso de almacenamiento externo requerido para guardar el garabato dibujado!</string>
+    <!--
+
+    Setup profile
+
+    -->
+    <string name="name_empty">El nombre no puede estar vacío</string>
+    <!--
+
+    Crop image
+    -->
+    <string name="crop_image_activity_title">Cortar</string>
+    <string name="crop_image_menu_rotate_left">Girar en sentido antihorario</string>
+    <string name="crop_image_menu_rotate_right">Girar</string>
+    <string name="crop_image_menu_crop">Cortar</string>
+    <string name="crop_image_menu_flip">Voltear</string>
+    <string name="crop_image_menu_flip_horizontally">Voltear horizontalmente</string>
+    <string name="crop_image_menu_flip_vertically">Voltear verticalmente</string>
+    <string name="pick_image_intent_chooser_title">Seleccionar fuente</string>
+    <string name="NoNumber">Sin número</string>
+    <string name="NewName">ACTUALIZAR NOMBRE</string>
+    <string name="PhoneAndStatus">Detalles de usuario</string>
+    <string name="profile_disclaimer">Este no es su nombre de usuario y será visible para sus contactos mediante el módulo MQtt.</string>
+    <!--
+
+    Sync chats
+
+    -->
+    <string name="ChatSync">No hay chats para sincronizar</string>
+    <string name="RetrieveMessage">Recuperando mensajes ...</string>
+    <string name="FailedMessageRetrieve">¡Fallo al recuperar los mensajes anteriores!</string>
+    <string name="MoreMessage">más mensajes nuevos</string>
+    <!--
+
+    Delete notification
+
+    -->
+    <string name="DeleteFailed">¡Error al eliminar el chat !</string>
+    <string name="progress_dialog_loading">Cargando…</string>
+    <string name="chat_invition_text">Has invitado a joma a unirse a un chat</string>
+    <string name="counter_offer_received">Oferta de contador recibida:</string>
+    <string name="counter_offer_text">Contraoferta</string>
+    <string name="paypal_text">Paypal</string>
+    <string name="pay_pal_failed_text">Error al obtener el enlace de Paypal</string>
+    <string name="pay_with_my">Pagar con mi</string>
+    <string name="offer_confirmed">Oferta confirmada</string>
+    <string name="pay_pal_shared">Paypal compartido</string>
+    <string name="sell_first">¡Primero acepta la oferta!</string>
+    <string name="purchased_first">¡Compre el producto primero!</string>
+    <string name="error_on_product_update">¡No puedo actualizar los detalles del producto!</string>
+    <string name="produt_details_loading">Cargando detalles del producto!</string>
+    <string name="accept_text">ACEPTAR</string>
+    <string name="counter_offer">contraoferta</string>
+    <string name="not_negotiable_text">Este producto no es negociable.</string>
+    <string name="Error_on_plandetaisl">Por favor seleccione los detalles del plan</string>
+    <string name="purchaset_error">No se puede comprar el artículo</string>
+    <string name="updating_purchase_text">Actualizando compra...</string>
+    <string name="Stored_item_error">El artículo comprado no corresponde con la clave almacenada</string>
+    <string name="parse_exception_text">Excepción Parse!</string>
+    <string name="userIdtext">El usuario no está registrado para chatear</string>
+    <string name="not_register_task">El producto no está registrado para chatear</string>
+    <string name="stay_safe_text">MANTENTE A SALVO</string>
+    <string name="seft_hint_one">Reúnase en persona y pague con Paypal.Me</string>
+    <string name="seft_hint_two">Mantenga la conversación en el chat de Lagel.</string>
+    <string name="seft_hint_three">¿Demasiado bueno para ser verdad? Encuentre otro comprador o vendedor.</string>
+    <string name="ok_text">OK</string>
+    <string name="stay_safe_title">Mantente a salvo</string>
+    <string name="already_sold_Text">El producto ya está vendido</string>
+    <string name="mqtt_user_not_text">El usuario no tiene ID MQTT</string>
+    <string name="offer_sent_text">Oferta enviada</string>
+    <string name="already_sold_out_text">Producto ya no existe</string>
+    <string name="no_longer_exist">Producto ya no existe</string>
+    <string name="no_product_aleret_msg">Producto ya no existe</string>
+    <string name="signup_title">Crear una cuenta de Lagel</string>
+    <string name="app_share_dialog">Mira esta increíble aplicación</string>
+    <string name="share_via">Compartir via</string>
+    <string name="not_a_memmber_yet"><u>¿No eres miembro todavía?</u></string>
+    <string name="start_making_cash_by_selling_your_stuff_or_find_bargains_for_sale_near_you">Comience a ganar dinero vendiendo sus artículos o encuentre increíbles ofertas cerca de usted.</string>
+    <string name="sign_in">Ingresar</string>
+    <!-- Product conditions -->
+    <string name="other_see_descriptions">Otro</string>
+    <string name="for_parts">Para partes</string>
+    <string name="spanish">Español</string>
+    <string name="spanish_language_code">es</string>
+    <string name="signup_descr">Cree una nueva cuenta de Lagel para comprar, vender y comunicarse con compradores o vendedores cerca de usted.</string>
+    <string name="invite">"Invitación"</string>
+
+    <string name="saving_image">Saving image</string>
+    <string name="preparing_card">Preparing card</string>
+    <string name="no_storage_card">No storage card</string>
+    <string name="not_enough_space">Not enough space</string>
+
+    <string name="crop__done">DONE</string>
+    <string name="crop__cancel">CANCEL</string>
+    <string name="purches_app_name">Innapp_purches</string>
+    <string name="three_Months">GET 12 MONTHS FOR $3.99</string>
+    <string name="six_Months">GET 6 MONTHS FOR $2.99</string>
+    <string name="twelve_Months">GET 3 MONTHS FOR $1.99</string>
+    <string name="getDatumPlus_aleret">Get Datum Plus and unlock</string>
+    <string name="changeYourLocation_aleret">Change Your Location</string>
+    <string name="rewindYourLastSwipe">Rewind Your Last Swipe</string>
+    <string name="sendMoreSuperLikes">Send More Super Likes</string>
+    <string name="viewYourRecentVisitors">View Your Recent Visitors</string>
+    <string name="goBackAndSwipeAgain">Go back and swipe again</string>
+    <string name="letThemKnow">Let them know you are interested</string>
+    <string name="knowWhoViewed">Know who viewed your profile</string>
+    <string name="not_now_aleret">NOT NOW</string>
+    <string name="passport">PASSPORT</string>
+    <string name="rewind">REWIND</string>
+    <string name="superLike">SUPERLIKE</string>
+    <string name="visitors">VISITORS</string>
+    <!--Change Your Location-->
+    <string name="getDatumPlus">Get Datum Plus</string>
+    <string name="changeYourLocation">Change Your Location</string>
+    <string name="Months">12 MONTHS FOR $4.22/mo</string>
+    <string name="matchAroundWorld">Match around the world</string>
+    <string name="not_now">NOT NOW</string>
+
+    <!--string-array name="countryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array-->
+
+    <string name="report_item_one">Está prohibido en lagel</string>
+    <string name="report_item_two">Es ofensivo para mi</string>
+    <string name="report_item_three">No es una publicación real</string>
+    <string name="report_item_four">Es una publicación duplicada</string>
+    <string name="report_item_five">Está en la categoría incorrecta</string>
+    <string name="report_item_six">Puede ser incorrecto</string>
+    <string name="report_item_seven">Puede ser robado</string>
+    <string name="report_item_eight">Otro</string>
+
+    <string name="report_user_item_one">Perdió nuestra reunión</string>
+    <string name="report_user_item_two">No responde a los mensajes</string>
+    <string name="report_user_item_three">Me vendió algo roto</string>
+    <string name="report_user_item_four">Inapropiado / inapropiado</string>
+    <string name="report_user_item_five">Posible estafador</string>
+    <string name="report_user_item_six">Sus artículos pueden ser robados</string>
+    <string name="report_user_item_seven">Incidente en MeetUp</string>
+
+    <string name="verify_phone_auth">Verificar</string>
+    <string name="resend_phone_auth">Reenviar</string>
+    <string name="hint_phone_number">Número de Telefono</string>
+    <string name="hint_verification_code">Código de Verificación</string>
+    <string name="status_code_sent">Codigo Enviado</string>
+    <string name="status_verification_failed">Verificación fallada</string>
+    <string name="status_verification_succeeded">Verificación exitosa</string>
+
+    <string name="sign_out">Sign Out</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="phone_title_text">Número de Telefono</string>
+    <!--string name="start_phone_auth">Enviar</string-->
+    <string name="register_phone">Registrarse con Telefono</string>
+
+    <string name="label_what_name">¿Cual es tu nombre?</string>
+    <string name="label_next">Siguiente</string>
+    <string name="label_already_account">¿Ya tienes una cuenta? Iniciar Sesión</string>
+    <string name="label_create_password">Crear Contraseña</string>
+    <string name="label_confirm_password">Confirmar Contraseña</string>
+    <string name="label_finish_signing_up">Finalizar el Registro</string>
+    <string name="label_error_password">Contraseña incorrecta, Las contraseñas no coinciden</string>
+    <string name="first_name_empty">El primer nombre o el apellido no pueden estar vacíos</string>
+
+    <string name="phone_name_empty">Telefono no puse ser vacio</string>
+    <string name="label_emaiL_notvalid">Correo Electronico no valido!!</string>
+    <string name="label_first_name">Nombres</string>
+    <string name="label_last_name">Apellido</string>
+
+    <string-array name="countryCodes">
+        <item>93,AF,Afghanistan</item>
+        <item>355,AL,Albania</item>
+        <item>213,DZ,Algeria</item>
+        <item>376,AD,Andorra</item>
+        <item>244,AO,Angola</item>
+        <item>672,AQ,Antarctica</item>
+        <item>54,AR,Argentina</item>
+        <item>374,AM,Armenia</item>
+        <item>297,AW,Aruba</item>
+        <item>61,AU,Australia</item>
+        <item>43,AT,Austria</item>
+        <item>994,AZ,Azerbaijan</item>
+        <item>973,BH,Bahrain</item>
+        <item>880,BD,Bangladesh</item>
+        <item>375,BY,Belarus</item>
+        <item>32,BE,Belgium</item>
+        <item>501,BZ,Belize</item>
+        <item>229,BJ,Benin</item>
+        <item>975,BT,Bhutan</item>
+        <item>591,BO,Bolivia</item>
+        <item>387,BA,Bosnia and Herzegovina</item>
+        <item>267,BW,Botswana</item>
+        <item>55,BR,Brazil</item>
+        <item>673,BN,Brunei</item>
+        <item>359,BG,Bulgaria</item>
+        <item>226,BF,Burkina Faso</item>
+        <item>95,MM,Myanmar</item>
+        <item>257,BI,Burundi</item>
+        <item>855,KH,Cambodia</item>
+        <item>237,CM,Cameroon</item>
+        <item>1,CA,Canada</item>
+        <item>238,CV,Cape Verde</item>
+        <item>236,CF,Central African Republic</item>
+        <item>235,TD,Chad</item>
+        <item>56,CL,Chile</item>
+        <item>86,CN,China</item>
+        <item>61,CX,Christmas Island</item>
+        <item>61,CC,Cocos Islands</item>
+        <item>57,CO,Colombia</item>
+        <item>269,KM,Comoros</item>
+        <item>242,CG,Republic of the Congo</item>
+        <item>243,CD,Democratic Republic of the Congo</item>
+        <item>682,CK,Cook Islands</item>
+        <item>506,CR,Costa Rica</item>
+        <item>385,HR,Croatia</item>
+        <item>53,CU,Cuba</item>
+        <item>357,CY,Cyprus</item>
+        <item>420,CZ,Czech Republic</item>
+        <item>45,DK,Denmark</item>
+        <item>253,DJ,Djibouti</item>
+        <item>670,TL,East Timor</item>
+        <item>593,EC,Ecuador</item>
+        <item>20,EG,Egypt</item>
+        <item>503,SV,El Salvador</item>
+        <item>240,GQ,Equatorial Guinea</item>
+        <item>291,ER,Eritrea</item>
+        <item>372,EE,Estonia</item>
+        <item>251,ET,Ethiopia</item>
+        <item>500,FK,Falkland Islands</item>
+        <item>298,FO,Faroe Islands</item>
+        <item>679,FJ,Fiji</item>
+        <item>358,FI,Finland</item>
+        <item>33,FR,France</item>
+        <item>689,PF,French Polynesia</item>
+        <item>241,GA,Gabon</item>
+        <item>220,GM,Gambia</item>
+        <item>995,GE,Georgia</item>
+        <item>49,DE,Germany</item>
+        <item>233,GH,Ghana</item>
+        <item>350,GI,Gibraltar</item>
+        <item>30,GR,Greece</item>
+        <item>299,GL,Greenland</item>
+        <item>502,GT,Guatemala</item>
+        <item>224,GN,Guinea</item>
+        <item>245,GW,Guinea-Bissau</item>
+        <item>592,GY,Guyana</item>
+        <item>509,HT,Haiti</item> <!--country code 509-->
+        <item>504,HN,Honduras</item>
+        <item>852,HK,Hong Kong</item>
+        <item>36,HU,Hungary</item>
+        <item>91,IN,India</item>
+        <item>62,ID,Indonesia</item>
+        <item>98,IR,Iran</item>
+        <item>964,IQ,Iraq</item>
+        <item>353,IE,Irland</item>
+        <item>44,IM,United Kingdom</item>
+        <item>972,IL,Israel</item>
+        <item>39,IT,Italia</item>
+        <item>225,CI,Ivory Coast</item>
+        <item>81,JP,Japan</item>
+        <item>962,JO,Jordan</item>
+        <item>7,KZ,Kazakhstan</item>
+        <item>254,KE,Kenya</item>
+        <item>686,KI,Kiribati</item>
+        <item>965,KW,Kuwait</item>
+        <item>996,KG,Kyrgyzstan</item>
+        <item>856,LA,Laos</item>
+        <item>371,LV,Latvia</item>
+        <item>961,LB,Lebanon</item>
+        <item>266,LS,Lesotho</item>
+        <item>231,LR,Liberia</item>
+        <item>218,LY,Libya</item>
+        <item>423,LI,Liechtenstein</item>
+        <item>370,LT,Lithuania</item>
+        <item>352,LU,Luxembourg</item>
+        <item>853,MO,Macau</item>
+        <item>389,MK,Macedonia</item>
+        <item>261,MG,Madagascar</item>
+        <item>265,MW,Malawi</item>
+        <item>60,MY,Malaysia</item>
+        <item>960,MV,Maldives</item>
+        <item>223,ML,Mali</item>
+        <item>356,MT,Malta</item>
+        <item>692,MH,Marshall Islands</item>
+        <item>222,MR,Mauritania</item>
+        <item>230,MU,Mauritius</item>
+        <item>262,YT,Mayotte</item>
+        <item>52,MX,Mexico</item>
+        <item>691,FM,Micronesia</item>
+        <item>373,MD,Moldova</item>
+        <item>377,MC,Monaco</item>
+        <item>976,MN,Mongolia</item>
+        <item>382,ME,Montenegro</item>
+        <item>212,MA,Morocco</item>
+        <item>258,MZ,Mozambique</item>
+        <item>264,NA,Namibia</item>
+        <item>674,NR,Nauru</item>
+        <item>977,NP,Nepal</item>
+        <item>31,NL,Netherlands</item>
+        <item>599,AN,Netherlands Antilles</item>
+        <item>687,NC,New Caledonia</item>
+        <item>64,NZ,New Zealand</item>
+        <item>505,NI,Nicaragua</item>
+        <item>227,NE,Niger</item>
+        <item>234,NG,Nigeria</item>
+        <item>683,NU,Niue</item>
+        <item>850,KP,North Korea</item>
+        <item>47,NO,Norway</item>
+        <item>968,OM,Oman</item>
+        <item>92,PK,Pakistan</item>
+        <item>680,PW,Palau</item>
+        <item>507,PA,Panama</item>
+        <item>675,PG,Papua New Guinea</item>
+        <item>595,PY,Paraguay</item>
+        <item>51,PE,Peru</item>
+        <item>63,PH,Philippines</item>
+        <item>870,PN,Pitcairn Islands</item>
+        <item>48,PL,Poland</item>
+        <item>351,PT,Portugal</item>
+        <item>1,PR,Puerto Rico</item>
+        <item>974,QA,Qatar</item>
+        <item>40,RO,Romania</item>
+        <item>7,RU,Russia</item>
+        <item>250,RW,Rwanda</item>
+        <item>590,BL,Saint Barthelemy</item>
+        <item>685,WS,Samoa</item>
+        <item>378,SM,San Marino</item>
+        <item>239,ST,Sao Tome and Principe</item>
+        <item>966,SA,Saudi Arabia</item>
+        <item>221,SN,Senegal</item>
+        <item>381,RS,Serbia</item>
+        <item>248,SC,Seychelles</item>
+        <item>232,SL,Sierra Leone</item>
+        <item>65,SG,Singapore</item>
+        <item>421,SK,Slovakia</item>
+        <item>386,SI,Slovenia</item>
+        <item>677,SB,Solomon Islands</item>
+        <item>252,SO,Somalia</item>
+        <item>27,ZA,South Africa</item>
+        <item>82,KR,South Korea</item>
+        <item>34,ES,Spain</item>
+        <item>94,LK,Sri Lanka</item>
+        <item>290,SH,Saint Helena</item>
+        <item>508,PM,Saint Pierre and Miquelon</item>
+        <item>249,SD,Sudan</item>
+        <item>597,SR,Suriname</item>
+        <item>268,SZ,Swaziland</item>
+        <item>46,SE,Sweden</item>
+        <item>41,CH,Switzerland</item>
+        <item>963,SY,Syria</item>
+        <item>886,TW,Taiwan</item>
+        <item>992,TJ,Tajikistan</item>
+        <item>255,TZ,Tanzania</item>
+        <item>66,TH,Thailand</item>
+        <item>228,TG,Togo</item>
+        <item>690,TK,Tokelau</item>
+        <item>676,TO,Tonga</item>
+        <item>216,TN,Tunisia</item>
+        <item>90,TR,Turkey</item>
+        <item>993,TM,Turkmenistan</item>
+        <item>688,TV,Tuvalu</item>
+        <item>971,AE,United Arab Emirates</item>
+        <item>256,UG,Uganda</item>
+        <item>44,GB,United Kingdom</item>
+        <item>380,UA,Ukraine</item>
+        <item>598,UY,Uruguay</item>
+        <item>1,US,United States</item>
+        <item>998,UZ,Uzbekistan</item>
+        <item>678,VU,Vanuatu</item>
+        <item>39,VA,Italy</item>
+        <item>58,VE,Venezuela</item>
+        <item>84,VN,Vietnam</item>
+        <item>681,WF,Wallis and Futuna</item>
+        <item>967,YE,Yemen</item>
+        <item>260,ZM,Zambia</item>
+        <item>263,ZW,Zimbabwe</item>
+    </string-array>
+    <string name="label_enter_sms_code_title">Déjanos saber que este número de teléfono te pertenece. Ingrese el Código del SMS enviado a</string>
+    <string name="label_enter_sms_code">Ingresar el código del sms</string>
+    <string name="label_sms_error">Codigo incorrecto</string>
+    <string name="change_password">Cambiar Contraseña</string>
+    <string name="label_confirm_code">Confirmar codigo del SMS </string>
+    <string name="label_not_products_location">No hay anuncios cerca de usted todavía. Sé el primero en publicar.</string>
+    <string name="update_foce">Para continuar utilizando la aplicación. Descarga la última versión de Google Play Store. Haga clic en el botón para continuar.</string>
+    <string name="update_force_title">Nueva versión disponible</string>
+    <string name="label_all">Todas</string>
+
+</resources>

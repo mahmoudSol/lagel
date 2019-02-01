@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="3dp"
+        app:cardCornerRadius="8dp"
+        android:elevation="1dp"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iV_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/simple_image_view" />
+
+        <!-- Featured tag -->
+        <RelativeLayout
+            android:id="@+id/rL_featured"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/five_dp"
+            android:background="@color/pink_color"
+            android:padding="@dimen/five_dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iV_featured_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/simple_image_view"
+                android:src="@drawable/featured_icon" />
+
+            <com.lagel.com.custom_fonts.TextViewRobotoMedium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/five_dp"
+                android:layout_marginStart="@dimen/five_dp"
+                android:layout_toEndOf="@+id/iV_featured_icon"
+                android:layout_toRightOf="@+id/iV_featured_icon"
+                android:text="@string/featured"
+                android:textColor="@color/white"
+                android:textSize="@dimen/subheading_text_size" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@id/iV_image"
+            android:id="@+id/charBtn"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/currencyTV"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp"
+                android:textColor="#000"
+                android:padding="3dp"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/categoryTV"
+                android:padding="3dp"
+                android:textColor="#aaa"
+                android:textStyle="bold"
+                android:text="PUMA"
+                android:singleLine="true"
+                android:lines="1"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="CHAT"
+                android:gravity="center"
+                android:id="@+id/chatBtn"
+                android:layout_margin="8dp"
+                android:textColor="@drawable/color_chat_button"
+                android:background="@drawable/bg_chat_button"
+                android:textSize="12sp"
+                android:padding="7dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>

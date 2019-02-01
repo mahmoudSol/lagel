@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <color name="black">#000000</color>
+    <color name="black_p50">#89000000</color>
+    <color name="default_circle_indicator_fill_color">#FFFF0000</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="docblue">#4399ca</color>
+    <color name="faderedcolor">#B0191E</color>
+    <color name="greycolor">#ffe5e5e5</color>
+    <color name="light_deep_green">#FF2FC18B</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle">
+            <enum name="none" value="0"/>
+            <enum name="triangle" value="1"/>
+            <enum name="underline" value="2"/>
+        </attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_circle_indicator_radius">4dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <string name="Months">12 MONTHS FOR $4.22/mo</string>
+    <string name="changeYourLocation">Change Your Location</string>
+    <string name="changeYourLocation_aleret">Change Your Location</string>
+    <string name="getDatumPlus">Get Datum Plus</string>
+    <string name="getDatumPlus_aleret">Get Datum Plus and unlock</string>
+    <string name="goBackAndSwipeAgain">Go back and swipe again</string>
+    <string name="knowWhoViewed">Know who viewed your profile</string>
+    <string name="letThemKnow">Let them know you are interested</string>
+    <string name="matchAroundWorld">Match around the world</string>
+    <string name="not_now">NOT NOW</string>
+    <string name="not_now_aleret">NOT NOW</string>
+    <string name="passport">PASSPORT</string>
+    <string name="purches_app_name">Innapp_purches</string>
+    <string name="rewind">REWIND</string>
+    <string name="rewindYourLastSwipe">Rewind Your Last Swipe</string>
+    <string name="sendMoreSuperLikes">Send More Super Likes</string>
+    <string name="six_Months">GET 6 MONTHS FOR $2.99</string>
+    <string name="superLike">SUPERLIKE</string>
+    <string name="three_Months">GET 12 MONTHS FOR $3.99</string>
+    <string name="twelve_Months">GET 3 MONTHS FOR $1.99</string>
+    <string name="viewYourRecentVisitors">View Your Recent Visitors</string>
+    <string name="visitors">VISITORS</string>
+    <style name="Theme.Transparent.background" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/black_p50</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>
